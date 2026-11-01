@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Altum Club de Entrenamiento</title>
+<meta name="description" content="Club de entrenamiento premium: 3.200 m² de sala, piscina de 25 m, spa y membresías desde 89 USD al mes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#inicio">ALTUM</a>
+  <nav aria-label="Principal">
+    <a href="#espacios">Espacios</a>
+    <a href="#membresias">Membresías</a>
+    <a href="#promociones">Promociones</a>
+    <a href="#ubicacion">Ubicación</a>
+  </nav>
+  <a class="btn btn-small" href="#membresias">Ver precios</a>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <img src="assets/hero.jpg" alt="Sala de fuerza de doble altura con ventanales de piso a techo al atardecer" width="1600" height="900" fetchpriority="high">
+  <div class="hero-copy">
+    <p class="eyebrow">Club de entrenamiento privado</p>
+    <h1>Entrena donde sobra el espacio.</h1>
+    <p class="lead">3.200 m² con 11 metros de altura libre, luz natural y un cupo limitado de socios. Aquí nunca haces fila para un rack.</p>
+    <div class="actions">
+      <a class="btn" href="#membresias">Ver membresías</a>
+      <button class="btn btn-ghost" type="button" data-open-bot>Preguntar al asistente</button>
+    </div>
+  </div>
+</section>
+
+<section class="facts" aria-label="El club en cifras">
+  <dl>
+    <div><dt>Superficie total</dt><dd>3.200 m²</dd></div>
+    <div><dt>Altura libre</dt><dd>11 m</dd></div>
+    <div><dt>Piscina climatizada</dt><dd>25 m</dd></div>
+    <div><dt>Socios por turno</dt><dd>Máx. 120</dd></div>
+  </dl>
+</section>
+
+<section class="spaces" id="espacios">
+  <div class="head">
+    <p class="eyebrow">Espacios</p>
+    <h2>Cinco ambientes, ninguno abarrotado.</h2>
+  </div>
+
+  <figure class="wide">
+    <img src="assets/pool.jpg" alt="Piscina de cuatro carriles entre columnas de travertino, con un ventanal al fondo" width="1600" height="900" loading="lazy">
+    <figcaption><strong>Piscina de 25 m</strong><span>Cuatro carriles a 28 °C, columnas de travertino y tumbonas de roble.</span></figcaption>
+  </figure>
+
+  <div class="pair">
+    <figure>
+      <img src="assets/strength.jpg" alt="Zona de peso libre con mancuernas, bancos y kettlebells junto a columnas de travertino" width="1600" height="900" loading="lazy">
+      <figcaption><strong>Peso libre</strong><span>Mancuernas de hasta 60 kg, bancos y kettlebells con espacio de sobra.</span></figcaption>
+    </figure>
+    <figure>
+      <img src="assets/studio.jpg" alt="Estudio de pilates con piso de roble, reformers y luz de día" width="1600" height="900" loading="lazy">
+      <figcaption><strong>Estudio de pilates</strong><span>15 reformers bajo luz natural, con grupos reducidos.</span></figcaption>
+    </figure>
+  </div>
+
+  <div class="pair pair-flip">
+    <figure>
+      <img src="assets/cardio.jpg" alt="Hilera de cintas de correr frente a un ventanal panorámico con vista a la ciudad" width="1600" height="900" loading="lazy">
+      <figcaption><strong>Terraza cardio</strong><span>Corre frente a un ventanal de 40 metros con vista a la ciudad.</span></figcaption>
+    </figure>
+    <figure>
+      <img src="assets/spa.jpg" alt="Sauna de madera con bancos iluminados y un calentador de piedras" width="1600" height="900" loading="lazy">
+      <figcaption><strong>Sauna y recuperación</strong><span>Sauna de madera, bancos en dos niveles y luz cálida.</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="plans" id="membresias">
+  <div class="head">
+    <p class="eyebrow">Membresías</p>
+    <h2>Tres planes mensuales, sin costo de permanencia.</h2>
+  </div>
+  <div class="plan-grid">
+    <article class="plan">
+      <h3>Esencial</h3>
+      <p class="price"><span>$89</span> USD/mes</p>
+      <p class="plan-note">Para entrenar por tu cuenta.</p>
+      <ul>
+        <li>Sala de fuerza y cardio</li>
+        <li>Lunes a viernes, 9:00 a 17:00</li>
+        <li>Lockers y toallas</li>
+      </ul>
+      <a class="btn btn-ghost" data-wa="Hola, quiero información del plan Esencial." href="#">Elegir Esencial</a>
+    </article>
+    <article class="plan plan-featured">
+      <p class="tag">El más elegido</p>
+      <h3>Signature</h3>
+      <p class="price"><span>$149</span> USD/mes</p>
+      <p class="plan-note">Todo el club, a cualquier hora.</p>
+      <ul>
+        <li>Acceso total, todos los días</li>
+        <li>Piscina, sauna y clases grupales</li>
+        <li>Evaluación física trimestral</li>
+      </ul>
+      <a class="btn" data-wa="Hola, quiero información del plan Signature." href="#">Elegir Signature</a>
+    </article>
+    <article class="plan">
+      <h3>Privé</h3>
+      <p class="price"><span>$249</span> USD/mes</p>
+      <p class="plan-note">Con acompañamiento personal.</p>
+      <ul>
+        <li>Todo lo del plan Signature</li>
+        <li>4 sesiones de entrenador al mes</li>
+        <li>Plan de nutrición y locker fijo</li>
+      </ul>
+      <a class="btn btn-ghost" data-wa="Hola, quiero información del plan Privé." href="#">Elegir Privé</a>
+    </article>
+  </div>
+</section>
+
+<section class="promos" id="promociones">
+  <div class="head">
+    <p class="eyebrow">Promociones vigentes</p>
+    <h2>Tres formas de empezar pagando menos.</h2>
+  </div>
+  <ol class="promo-list">
+    <li><strong>Inscripción sin costo</strong><span>Te ahorras los $120 USD de inscripción al unirte este mes.</span></li>
+    <li><strong>20% en el plan anual</strong><span>Paga 12 meses por adelantado. Signature queda en $119 USD al mes.</span></li>
+    <li><strong>Trae a tu pareja o amigo</strong><span>Si se inscriben juntos, cada uno recibe un mes gratis.</span></li>
+  </ol>
+</section>
+
+<section class="visit" id="ubicacion">
+  <div class="visit-info">
+    <p class="eyebrow">Ubicación</p>
+    <h2>Ven a recorrer el club.</h2>
+    <address>
+      <span data-address></span><br>
+      Lunes a viernes, 5:00 a 23:00<br>
+      Sábados y domingos, 7:00 a 20:00
+    </address>
+    <a class="btn" data-maps href="#" target="_blank" rel="noopener">Abrir en Google Maps</a>
+    <h3>Síguenos</h3>
+    <ul class="social">
+      <li><a data-social="instagram" href="#" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a data-social="facebook" href="#" target="_blank" rel="noopener">Facebook</a></li>
+      <li><a data-social="tiktok" href="#" target="_blank" rel="noopener">TikTok</a></li>
+      <li><a data-wa="Hola, quiero más información sobre Altum." href="#" target="_blank" rel="noopener">WhatsApp</a></li>
+    </ul>
+  </div>
+  <iframe id="map" title="Ubicación del club en Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+</main>
+
+<footer class="foot">
+  <span>ALTUM Club de Entrenamiento</span>
+  <span>Imágenes: renders 3D de referencia</span>
+</footer>
+
+<button class="bot-fab" type="button" data-open-bot aria-haspopup="dialog">
+  <span class="dot" aria-hidden="true"></span> Asistente
+</button>
+
+<section class="bot" id="bot" role="dialog" aria-label="Asistente de Altum" hidden>
+  <header class="bot-head">
+    <div><strong>Asistente Altum</strong><small>Marca el número de tu opción</small></div>
+    <button type="button" id="bot-close" aria-label="Cerrar asistente">&times;</button>
+  </header>
+  <div class="bot-log" id="bot-log" aria-live="polite"></div>
+  <div class="keypad" id="keypad" role="group" aria-label="Teclado numérico"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
